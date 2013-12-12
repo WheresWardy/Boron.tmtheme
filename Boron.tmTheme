@@ -5,16 +5,16 @@
   <key>name</key>
   <string>Boron</string>
   <key>website</key>
-  <string>https://github.com/mjio/boron.tmtheme</string>
+  <string>https://github.com/WheresWardy/boron.tmtheme</string>
   <key>comment</key>
-  <string>Last update: Feb 25 2013</string>
+  <string>Forked from https://github.com/mjio/boron.tmtheme</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#151515</string>
+        <string>#252620</string>
         <key>caret</key>
         <string>#b0d0f0</string>
         <key>foreground</key>
@@ -24,7 +24,7 @@
         <key>selection</key>
         <string>#404040</string>
         <key>lineHighlight</key>
-        <string>#010101</string>
+        <string>#313029</string>
         <key>gutterForeground</key>
         <string>#373737</string>
       </dict>
@@ -86,7 +86,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#dd0093</string>
+        <string>#da5191</string>
       </dict>
     </dict>
 
@@ -135,6 +135,62 @@
       <dict>
         <key>foreground</key>
         <string>#fad07a</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Function argument</string>
+      <key>scope</key>
+      <string>variable.parameter</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#FD971F</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Library function</string>
+      <key>scope</key>
+      <string>support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#9BE1EF</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Library constant</string>
+      <key>scope</key>
+      <string>support.constant</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#9BE1EF</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Library class/type</string>
+      <key>scope</key>
+      <string>support.type, support.class</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#9BE1EF</string>
       </dict>
     </dict>
 
