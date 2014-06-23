@@ -110,7 +110,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#d7bdfa</string>
+        <string>#E97C98</string>
       </dict>
     </dict>
 
@@ -200,7 +200,7 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string>italic</string>
+        <string></string>
         <key>foreground</key>
         <string>#ffb964</string>
       </dict>
