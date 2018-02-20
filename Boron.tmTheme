@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0">
 <dict>
   <key>name</key>
   <string>Boron</string>
@@ -26,7 +26,7 @@
         <key>lineHighlight</key>
         <string>#313029</string>
         <key>gutterForeground</key>
-        <string>#373737</string>
+        <string>#515151</string>
       </dict>
     </dict>
 
@@ -172,7 +172,7 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string />
         <key>foreground</key>
         <string>#ffb964</string>
       </dict>
@@ -186,7 +186,7 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string />
         <key>foreground</key>
         <string>#ffb964</string>
       </dict>
@@ -200,7 +200,7 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string></string>
+        <string />
         <key>foreground</key>
         <string>#ffb964</string>
       </dict>
@@ -282,7 +282,47 @@
       </dict>
     </dict>
 
-  </array>
+  <dict>
+            <key>name</key>
+            <string>Python Flake8 Lint Gutter Mark</string>
+            <key>scope</key>
+            <string>flake8lint.mark.gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>Python Flake8 Lint Critical</string>
+            <key>scope</key>
+            <string>flake8lint.mark.critical</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#981600</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>Python Flake8 Lint Warning</string>
+            <key>scope</key>
+            <string>flake8lint.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#EDBA00</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>Python Flake8 Lint Error</string>
+            <key>scope</key>
+            <string>flake8lint.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DA2000</string>
+            </dict>
+        </dict></array>
   <key>uuid</key>
   <string>4e4cdb00-2fb2-11e2-81c1-0800200c9a66</string>
 </dict>
